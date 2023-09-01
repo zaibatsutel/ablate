@@ -1,0 +1,52 @@
+# Ablate: A fork of Bloat
+
+Ablate (n): To remove or destroy, esp. by cutting, abrading or evaporating.
+
+Ablate is derived from Bloat, a very minimal "Web 1.5" client. It uses Frames. 
+
+The goals of Ablate are
+
+* Bring the interface to HTML5 standards (no framesets) 
+* Use Minimal amounts of Javascript (avoiding anything not vanilla JS)
+* Create a minimal UI that isn't eye-searing
+
+You can find the upstream if you look hard enough. I have chosen to not link it here due to Reasons:tm:. I'm not a fan of its developer but wanted to hack on a half not shite client. 
+
+
+
+# Requirements:
+
+- Go 1.20
+
+
+# Building and Installation:
+
+Typing make will build the binary 
+```
+make
+```
+
+Edit the default config file. See the bloat.conf file for more details.
+```
+vim bloat.conf
+```
+
+Run the binary
+
+```
+./bloat
+```
+
+You can now access the frontend at http://127.0.0.1:8080, which is the default
+listen address. See the INSTALL file for more details.
+
+
+# License
+
+To the extent possible under law, the author have dedicated all copyright and
+related and neighboring rights to this software to the public domain worldwide.
+This software is distributed without any warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication along with
+this software. If not, see http://creativecommons.org/publicdomain/zero/1.0/.
+
